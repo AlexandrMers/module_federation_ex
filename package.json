@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm --prefix ./search-module run start & npm --prefix ./products-module run start & npm --prefix ./main-space run start"
+    "start": "npm --prefix ./packages/search-module run start & npm --prefix ./packages/products-module run start & npm --prefix ./packages/main-space run start"
   },
   "author": "Alexandr Avdeev",
   "license": "ISC"
