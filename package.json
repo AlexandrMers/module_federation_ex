@@ -1,0 +1,11 @@
+{
+  "name": "micro-frontends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm --prefix ./search-module run start & npm --prefix ./products-module run start & npm --prefix ./main-space run start"
+  },
+  "author": "Alexandr Avdeev",
+  "license": "ISC"
+}
